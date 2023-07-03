@@ -1,4 +1,7 @@
 # capstone-project
+
+![image.jpg](https://github.com/Lawez/capstone-project/blob/main/image.jpg)
+
 ## Business understanding
 #### Problem statement
 Develop a recommender system for exercise intensity that provides personalized recommendations on appropriate workout intensities based on individual characteristics, including age, gender, BMI, exercise duration, heart rate, calories burned, weather conditions, and desired weight goals. The goal is to guide individuals in selecting exercise intensities that optimize their fitness outcomes, taking into account their specific attributes and preferences.
