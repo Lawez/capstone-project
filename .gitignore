@@ -1,0 +1,4 @@
+# Ignore Visual Studio Code specific files
+.vscode/
+*.code-workspace
+reviews_1000_1500.csv
