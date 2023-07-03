@@ -1,8 +1,0 @@
-im.db
-.DS_Store
-__pycache__
-*.pytest_cache
-.gitattributes
-!*.zip
-Crop_recommendation.csv
-reviews_1000_1500.csv
