@@ -61,7 +61,7 @@ The project involved evaluating multiple machine learning models for predicting 
 * K-Nearest Neighbors (KNN): RMSE = 
 Based on the performance results, it was decided to further tune and optimize the Random Forest Regressor model, as it had the lowest RMSE among the tested models. After the tuning process, the Random Forest Regressor achieved an improved RMSE of 2.86.
 
-##Conclusion
+## Conclusion
 * The model can be utilized to provide personalized exercise intensity recommendations to individuals based on their characteristics, including age, gender, BMI, exercise duration, heart rate, calories burned, weather conditions, and desired weight goals. Users can input their information into the system, and the model will generate tailored recommendations to optimize their workout effectiveness.
 * Integrate the exercise intensity recommendation system into wellness apps and platforms to deliver personalized exercise guidance to users. The system can enhance the user experience by providing customized workout plans and real-time intensity recommendations based on the individual's characteristics and preferences.
 *  By providing personalized exercise guidance, the system can help employees maintain a healthy lifestyle, manage stress, and improve productivity.
