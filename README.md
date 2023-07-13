@@ -25,13 +25,6 @@ Overall Objective: Develop a Recommender System for Personalized Exercise Intens
 6. **Integration**: Integrated the trained models into the web app and mobile app, allowing users to receive real-time exercise intensity recommendations based on their input.
 7. **Documentation and Write-up**: Documented the project details, including the project steps, descriptions of the models used, evaluation results, and many interesting findings as well as insights obtained throughout the project.
 
-## Repository Structure
-* ReadMe:
-* Web App: 
-* Mobile App:
-* Jupyter Notebook:
-* Dataset:
-
 ## Required Dependencies
 * pandas
 * numpy
@@ -88,3 +81,15 @@ Special thanks to the team that made this project possible.
 * kelvin.muriuki@student.moringaschool.com
 * susan.warigia@student.moringaschool.com
 * eston.kamau@student.moringaschool.com
+
+## Repository Structure
+├── data/                      <- Directory containing datasets used in the study
+├── images/                    <- Folder for storing images related to the project
+├── presentation.pdf           <- PDF document containing the project presentation
+├── .canvas                    <- File extension specific to the Canvas platform
+├── .gitignore                 <- File specifying patterns to be ignored by Git
+├── CONTRIBUTING               <- Directory containing logs and guidelines for contributions
+├── LICENSE.md                 <- File containing the project's license information
+├── README.md                  <- Top-level README providing an overview of the project
+└── student.ipynb              <- Jupyter Notebook documenting the analysis and findings
+
