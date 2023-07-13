@@ -93,3 +93,14 @@ Special thanks to the team that made this project possible.
 ├── README.md                  <- Top-level README providing an overview of the project
 └── student.ipynb              <- Jupyter Notebook documenting the analysis and findings
 
+
+
+├── data                                                   <- Data folder location of our study
+├── images                                                 <- images folder of our notebook 
+├── presentation.pdf                                       <- PDF version of project presentation 
+├── .canvas                                                <- canvas extention 
+├── .gitignore                                             <- gitignore 
+├── CONTRIBUTING                                           <- Conribution logs
+├── LISENCE.md                                               <- LICENCE of the project
+├── README.md                                              <- The top-level README for reviewers of this project                  
+└── student.ipynb                                          <- Narrative documentation of analysis in Jupyter notebook
