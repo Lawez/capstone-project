@@ -1,4 +1,4 @@
-# capstone-project
+# EXERCISE INTENSITY RECOMMENDATION SYSTEM
 
 ![image.jpg](https://github.com/Lawez/capstone-project/blob/main/image.jpg)
 
@@ -38,14 +38,34 @@ Overall Objective: Develop a Recommender System for Personalized Exercise Intens
 * matplotlib
 * Scikit-learn
 * seaborn
+### Loading Data
+* df1 = pd.read_csv('exercise_datasett.csv')
+### cleaning data
+* cleaned(df1)
+
+## Visualizations
+![image](https://github.com/Lawez/capstone-project/assets/124572155/23bee446-71e2-4481-b597-77b14789e3c2)
+
+![image](https://github.com/Lawez/capstone-project/assets/124572155/8a292d51-a303-496a-ae03-d67f8cd0cbab)
+
+![image](https://github.com/Lawez/capstone-project/assets/124572155/c421d9aa-1ba8-467a-944e-61d33d4763c3)
+
+![image](https://github.com/Lawez/capstone-project/assets/124572155/7743a1b5-101d-4548-ba11-deef8b4aba3d)
+
 
 ## Model Selection and Performance
 The project involved evaluating multiple machine learning models for predicting exercise intensity based on individual characteristics. The following models were tested, and their RMSE values were calculated:
 * Logistic Regression: RMSE = 3.83
 * XGBoost Regressor: RMSE = 2.92
-* Random Forest Regressor: RMSE = 
+* Random Forest Regressor: RMSE=
 * K-Nearest Neighbors (KNN): RMSE = 
 Based on the performance results, it was decided to further tune and optimize the Random Forest Regressor model, as it had the lowest RMSE among the tested models. After the tuning process, the Random Forest Regressor achieved an improved RMSE of 2.86.
+
+##Conclusion
+* The model can be utilized to provide personalized exercise intensity recommendations to individuals based on their characteristics, including age, gender, BMI, exercise duration, heart rate, calories burned, weather conditions, and desired weight goals. Users can input their information into the system, and the model will generate tailored recommendations to optimize their workout effectiveness.
+* Integrate the exercise intensity recommendation system into wellness apps and platforms to deliver personalized exercise guidance to users. The system can enhance the user experience by providing customized workout plans and real-time intensity recommendations based on the individual's characteristics and preferences.
+*  By providing personalized exercise guidance, the system can help employees maintain a healthy lifestyle, manage stress, and improve productivity.
+*  The system can assist healthcare professionals in prescribing appropriate exercise intensities for individuals with specific health conditions or goals.
 
 ## Installation and Usage
 1. Clone the repository: https://github.com/Lawez/capstone-project.git 
