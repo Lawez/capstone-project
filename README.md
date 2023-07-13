@@ -84,6 +84,7 @@ Special thanks to the team that made this project possible.
 
 ## Repository Structure
 
+```
 ├── data/                      <- Directory containing datasets used in the study
 ├── images/                    <- Folder for storing images related to the project
 ├── presentation.pdf           <- PDF document containing the project presentation
@@ -93,4 +94,8 @@ Special thanks to the team that made this project possible.
 ├── LICENSE.md                 <- File containing the project's license information
 ├── README.md                  <- Top-level README providing an overview of the project
 └── student.ipynb              <- Jupyter Notebook documenting the analysis and findings
+
+```
+
+
 
