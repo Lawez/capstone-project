@@ -26,11 +26,11 @@ Overall Objective: Develop a Recommender System for Personalized Exercise Intens
 7. **Documentation and Write-up**: Documented the project details, including the project steps, descriptions of the models used, evaluation results, and many interesting findings as well as insights obtained throughout the project.
 
 ## Repository Structure
-ReadMe:
-Web App: 
-Mobile App:
-Jupyter Notebook:
-Dataset:
+* ReadMe:
+* Web App: 
+* Mobile App:
+* Jupyter Notebook:
+* Dataset:
 
 ## Required Dependencies
 * pandas
@@ -57,9 +57,9 @@ Based on the performance results, it was decided to further tune and optimize th
 We extend our heartfelt appreciation to the Moringa School community, particularly the technical mentors, for their exceptional guidance and unwavering support during the project. Their expertise and constant assistance have been pivotal in the development of the exercise intensity recommendation system. We are profoundly grateful for their commitment to fostering a collaborative learning environment, which has played a crucial role in our accomplishments.
 
 Special thanks to the team that made this project possible.
-amos.kipkirui@student.moringaschool.com
-ian.tulienge@student.moringaschool.com
-lavender.echessa@student.moringaschool.com
-kelvin.muriuki@student.moringaschool.com
-Susan.warigia@student.moringaschool.com
-eston.kamau@student.moringaschool.com
+* amos.kipkirui@student.moringaschool.com
+* ian.tulienge@student.moringaschool.com
+* lavender.echessa@student.moringaschool.com
+* kelvin.muriuki@student.moringaschool.com
+* susan.warigia@student.moringaschool.com
+* eston.kamau@student.moringaschool.com
