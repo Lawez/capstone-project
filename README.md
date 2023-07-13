@@ -55,10 +55,15 @@ Overall Objective: Develop a Recommender System for Personalized Exercise Intens
 
 ## Model Selection and Performance
 The project involved evaluating multiple machine learning models for predicting exercise intensity based on individual characteristics. The following models were tested, and their RMSE values were calculated:
-* Logistic Regression: RMSE = 3.83
-* XGBoost Regressor: RMSE = 2.92
-* Random Forest Regressor: RMSE=
-* K-Nearest Neighbors (KNN): RMSE = 
+
+| Model                     | RMSE  |
+|---------------------------|-------|
+| Logistic Regression       | 3.83  |
+| XGBoost Regressor         | 2.92  |
+| Random Forest Regressor   | 2.89  |
+| K-Nearest Neighbors (KNN) | 3.14  |
+| Tuned Random Forest       | 2.86  |
+ 
 Based on the performance results, it was decided to further tune and optimize the Random Forest Regressor model, as it had the lowest RMSE among the tested models. After the tuning process, the Random Forest Regressor achieved an improved RMSE of 2.86.
 
 ## Conclusion
