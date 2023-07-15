@@ -53,11 +53,10 @@ The project involved evaluating multiple machine learning models for predicting 
 |---------------------------|-------|
 | Logistic Regression       | 3.83  |
 | XGBoost Regressor         | 2.92  |
-| Random Forest Regressor   | 2.89  |
-| K-Nearest Neighbors (KNN) | 3.14  |
-| Tuned Random Forest       | 2.86  |
+| Random Forest Regressor   | 2.90  |
+| Tuned Random Forest       | 2.88  |
  
-Based on the performance results, it was decided to further tune and optimize the Random Forest Regressor model, as it had the lowest RMSE among the tested models. After the tuning process, the Random Forest Regressor achieved an improved RMSE of 2.86.
+Based on the performance results, it was decided to further tune and optimize the Random Forest Regressor model, as it had the lowest RMSE among the tested models. After the tuning process, the Random Forest Regressor achieved an improved RMSE of 2.88.
 
 ## Conclusion
 * The model can be utilized to provide personalized exercise intensity recommendations to individuals based on their characteristics, including age, gender, BMI, exercise duration, heart rate, calories burned, weather conditions, and desired weight goals. Users can input their information into the system, and the model will generate tailored recommendations to optimize their workout effectiveness.
