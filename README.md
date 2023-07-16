@@ -68,7 +68,7 @@ Based on the performance results, it was decided to further tune and optimize th
 1. Clone the repository: https://github.com/Lawez/capstone-project.git 
 2. Install the required dependencies
 3. Start the web app
-4. Access the web app in your browser 
+4. Access the web app in your browser: https://exercise-recommender1-c2c35a5bcd9e.herokuapp.com/
 
 # Acknowledgement and Contributors
 We extend our heartfelt appreciation to the Moringa School community, particularly the technical mentors, for their exceptional guidance and unwavering support during the project. Their expertise and constant assistance have been pivotal in the development of the exercise intensity recommendation system. We are profoundly grateful for their commitment to fostering a collaborative learning environment, which has played a crucial role in our accomplishments.
