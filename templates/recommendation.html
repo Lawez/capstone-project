@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise Intensity Recommendation</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: #e0e0e0;
+            background-image: url('static/Ryan _ Nike Dunes.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .back-button {
+            margin-top: 20px;
+            display: block;
+            margin: 0 auto; /* Center horizontally */
+        }
+        .container {
+            border: 1px solid black;
+            padding: 20px;
+            display: inline-block;
+            max-width: 400px;
+            margin: 20px auto;
+            background-color: white;
+        }
+        
+        h1 {
+            margin-bottom: 20px;
+            color: black;
+        }
+        
+        .bold-label {
+            font-weight: bold;
+        }
+        
+        header {
+            
+            color: black;
+            padding: 5px;
+        }
+        
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 5px;
+            margin-top: auto;
+        }
+        .image-container {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Exercise Intensity Recommendation</h1>
+    </header>
+    
+    <div class="container">
+        <p><strong>Recommended Exercise Intensity:</strong> {{ intensity }}</p>
+        <p><strong>Intensity Description:</strong> {{ description }}</p>
+        <p><strong>Maximum Heart rate:</strong> {{ max_heart_rate }}</p>
+        <p><strong>Calories to burn in (Kcal):</strong> {{ calories_to_burned }}</p>
+    </div>
+    <button class="back-button" onclick="goBack()">Go Back</button>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+    <footer>
+        <p>&copy; 2023 Exercise Intensity Recommendation</p>
+    </footer>
+</body>
+</html>
