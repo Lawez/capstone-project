@@ -3,4 +3,4 @@ pickle
 streamlt
 gunicorn==20.1.0
 numpy
-sklearn
+scikit-learn==0.24.2
