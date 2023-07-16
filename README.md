@@ -23,7 +23,8 @@
 - [Model Selection and Performance](#model-selection-and-performance)
 - [Conclusion](#conclusion)
 - [Installation and Usage](#install-and-usage)
-  - [Website](#website)
+  - [Website(flask)](#website-flask)
+  - [Website(streamlit)](#website-streamlit)
 - [Acknowledgment](#acknowledgment)
 - [Contributors](#contributors)
 - [Repository Structure](#repository-structure)
@@ -108,11 +109,20 @@ Based on the performance results, it was decided to further tune and optimize th
 3. Run the application
 4. Access the web app in your browser 
 
-### Website
+### Website(flask)
 ![image.jpg](https://github.com/Lawez/capstone-project/blob/main/webcover.png)
 
 <p align="center">
   <a href="https://exercise-recommender1-c2c35a5bcd9e.herokuapp.com/">
+    <img src="https://img.shields.io/badge/Click%20to%20Website-brightgreen" alt="Click to Website">
+  </a>
+</p>
+
+### Website(streamlit)
+![image.jpg](https://github.com/Lawez/capstone-project/blob/main/webcover2.png)
+
+<p align="center">
+  <a href="https://exercise-recommender-streamlit-8b1283329582.herokuapp.com/">
     <img src="https://img.shields.io/badge/Click%20to%20Website-brightgreen" alt="Click to Website">
   </a>
 </p>
