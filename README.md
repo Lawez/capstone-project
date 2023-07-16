@@ -1,48 +1,36 @@
 
 <a name="readme-top"></a>
 
+<h1 align="center">EXERCISE INTENSITY RECOMMENDER SYSTEM</h1>
 
-![Contributors](https://img.shields.io/badge/Contributors-6-green)
+---
+![Build Status](https://img.shields.io/badge/Build%20Status-Success-blue)  ![Contributors](https://img.shields.io/badge/Contributors-6-green)
 
 ![image.jpg](https://github.com/Lawez/capstone-project/blob/main/image.jpg)
 
-<h1 align="center">EXERCISE INTENSITY RECOMMENDER SYSTEM</h1>
 
+## Table of Contents
+---
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary><h2>Table of Contents</h2></summary>
-  <ol>
-    <li>
-      <a href="#business-understanding">Business Understanding</a>
-      <ul>
-        <li><a href="#problem-statement">Problem Statement</a></li>
-        <li><a href="#business-context">Business Context</a></li>
-        <li><a href="#objectives">Objectives</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#project-steps">Project Steps</a>
-      <a href="#required-dependencies">Required Dependencies</a>
-      <ul>
-        <li><a href="#loading-data">Loading Data</a></li>
-        <li><a href="#cleaning-data">Cleaning Data</a></li>
-      </ul>
-    </li>
-    <li><a href="#model-selection-and-performance">Model Selection and Performance</a></li>
-    <li><a href="#conclusion">Conclusion</a></li>
-    <li>
-      <a href="#install-and-usage">Install and Usage</a>
-      <ul>
-        <li><a href="#website">Website</a></li>
-      </ul>
-    </li>
-    <li><a href="#acknowledgment-and-contributors">Acknowledgment and Contributors</a></li>
-    <li><a href="#repository-structure">Repository Structure</a></li>
-  </ol>
-</details>
+- [Business Understanding](#business-understanding)
+  - [Problem Statement](#problem-statement)
+  - [Business Context](#business-context)
+  - [Objectives](#objectives)
+- [Project Steps](#project-steps)
+  - [Required Dependencies](#required-dependencies)
+  - [Loading Data](#loading-data)
+  - [Cleaning Data](#cleaning-data)
+- [Model Selection and Performance](#model-selection-and-performance)
+- [Conclusion](#conclusion)
+- [Installation and Usage](#install-and-usage)
+  - [Website](#website)
+- [Acknowledgment](#acknowledgment)
+- [Contributors](#contributors)
+- [Repository Structure](#repository-structure)
 
+---
 ## Business Understanding
+---
 
 #### Problem Statement
 Develop a recommender system for exercise intensity that provides personalized recommendations on appropriate workout intensities based on individual characteristics, including age, gender, BMI, exercise duration, heart rate, calories burned, weather conditions, and desired weight goals. The goal is to guide individuals in selecting exercise intensities that optimize their fitness outcomes, taking into account their specific attributes and preferences.
@@ -58,7 +46,10 @@ Overall Objective: Develop a Recommender System for Personalized Exercise Intens
 3. Identify the factors that contribute to optimal exercise intensity.
 4. To develop a recommender system that can dynamically adjust exercise intensity recommendations based on changing weather conditions. The system should consider the impact of different weather conditions on workout performance and suggest appropriate exercise intensities accordingly
 
+---
 ## Project Steps
+---
+
 1. **Business/Data Understanding**: Conducted a comprehensive understanding of the business requirements and identified the relevant data needed for developing the exercise intensity recommendation system.
 2. **Data Preparation**: Performed data cleaning and preprocessing steps, including handling missing values, removing outliers, and transforming necessary variables.
 3. **Feature Engineering**: Engineered new features to enhance the predictive power of the models.
@@ -67,7 +58,9 @@ Overall Objective: Develop a Recommender System for Personalized Exercise Intens
 6. **Integration**: Integrated the trained models into the web app and mobile app, allowing users to receive real-time exercise intensity recommendations based on their input.
 7. **Documentation and Write-up**: Documented the project details, including the project steps, descriptions of the models used, evaluation results, and many interesting findings as well as insights obtained throughout the project.
 
+---
 ## Required Dependencies
+---
 
 The following dependencies are required to run this project:
 
@@ -82,7 +75,10 @@ The following dependencies are required to run this project:
 ### cleaning data
 * cleaned(df1)
 
+---
 ## Model Selection and Performance
+---
+
 The project involved evaluating multiple machine learning models for predicting exercise intensity based on individual characteristics. The following models were tested, and their RMSE values were calculated:
 
 | Model                     | RMSE  |
@@ -94,16 +90,22 @@ The project involved evaluating multiple machine learning models for predicting 
  
 Based on the performance results, it was decided to further tune and optimize the Random Forest Regressor model, as it had the lowest RMSE among the tested models. After the tuning process, the Random Forest Regressor achieved an improved RMSE of 2.88.
 
+---
 ## Conclusion
+---
+
 * The model can be utilized to provide personalized exercise intensity recommendations to individuals based on their characteristics, including age, gender, BMI, exercise duration, heart rate, calories burned, weather conditions, and desired weight goals. Users can input their information into the system, and the model will generate tailored recommendations to optimize their workout effectiveness.
 * Integrate the exercise intensity recommendation system into wellness apps and platforms to deliver personalized exercise guidance to users. The system can enhance the user experience by providing customized workout plans and real-time intensity recommendations based on the individual's characteristics and preferences.
 *  By providing personalized exercise guidance, the system can help employees maintain a healthy lifestyle, manage stress, and improve productivity.
 *  The system can assist healthcare professionals in prescribing appropriate exercise intensities for individuals with specific health conditions or goals.
 
+---
 ## Installation and Usage
+---
+
 1. Clone the repository: https://github.com/Lawez/capstone-project.git 
 2. Install the required dependencies
-3. Start the web app
+3. Run the application
 4. Access the web app in your browser 
 
 ### Website
@@ -115,19 +117,27 @@ Based on the performance results, it was decided to further tune and optimize th
   </a>
 </p>
 
+---
+## Acknowledgement 
+---
 
-# Acknowledgement and Contributors
 We extend our heartfelt appreciation to the Moringa School community, particularly the technical mentors, for their exceptional guidance and unwavering support during the project. Their expertise and constant assistance have been pivotal in the development of the exercise intensity recommendation system. We are profoundly grateful for their commitment to fostering a collaborative learning environment, which has played a crucial role in our accomplishments.
 
-Special thanks to the team that made this project possible.
-* amos.kipkirui@student.moringaschool.com
-* ian.tulienge@student.moringaschool.com
-* lavender.echessa@student.moringaschool.com
-* kelvin.muriuki@student.moringaschool.com
-* susan.warigia@student.moringaschool.com
-* eston.kamau@student.moringaschool.com
+---
+## Contributors
+---
 
+Special thanks to the team that made this project possible.
+- [Amos Kipkirui](https://github.com/Amoskipkirui)
+- [Ian Tulienge](https://github.com/Lawez)
+- [Lavender Echessa](https://github.com/lavEche)
+- [Kelvin Muriuki]()
+- [Susan Warigia](https://github.com/warigiasue89)
+- [Eston Kamau](https://github.com/EstonKamau)
+
+---
 ## Repository Structure
+---
 
 ```
 ├── data/                      <- Directory containing datasets used in the study
