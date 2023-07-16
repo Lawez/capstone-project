@@ -1,11 +1,54 @@
-# EXERCISE INTENSITY RECOMMENDATION SYSTEM
+
+<a name="readme-top"></a>
+
+
+![Contributors](https://img.shields.io/badge/Contributors-6-green)
 
 ![image.jpg](https://github.com/Lawez/capstone-project/blob/main/image.jpg)
 
-## Business understanding
-#### Problem statement
+<h1 align="center">EXERCISE INTENSITY RECOMMENDER SYSTEM</h1>
+
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary><h2>Table of Contents</h2></summary>
+  <ol>
+    <li>
+      <a href="#business-understanding">Business Understanding</a>
+      <ul>
+        <li><a href="#problem-statement">Problem Statement</a></li>
+        <li><a href="#business-context">Business Context</a></li>
+        <li><a href="#objectives">Objectives</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#project-steps">Project Steps</a>
+      <a href="#required-dependencies">Required Dependencies</a>
+      <ul>
+        <li><a href="#loading-data">Loading Data</a></li>
+        <li><a href="#cleaning-data">Cleaning Data</a></li>
+      </ul>
+    </li>
+    <li><a href="#visualizations">Visualizations</a></li>
+    <li><a href="#model-selection-and-performance">Model Selection and Performance</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+    <li>
+      <a href="#install-and-usage">Install and Usage</a>
+      <ul>
+        <li><a href="#website">Website</a></li>
+      </ul>
+    </li>
+    <li><a href="#acknowledgment-and-contributors">Acknowledgment and Contributors</a></li>
+    <li><a href="#repository-structure">Repository Structure</a></li>
+  </ol>
+</details>
+
+## Business Understanding
+
+#### Problem Statement
 Develop a recommender system for exercise intensity that provides personalized recommendations on appropriate workout intensities based on individual characteristics, including age, gender, BMI, exercise duration, heart rate, calories burned, weather conditions, and desired weight goals. The goal is to guide individuals in selecting exercise intensities that optimize their fitness outcomes, taking into account their specific attributes and preferences.
-#### Business context
+
+#### Business Context
 In today's thriving fitness and wellness industry, the development of a recommender system for exercise intensity presents valuable business opportunities. Fitness centers, gyms, and personal trainers can leverage this system to offer tailored workout programs that align with individual goals, preferences, and fitness levels, ultimately attracting and retaining members. Wellness apps and platforms can integrate the recommender system to deliver personalized exercise recommendations, enhancing the user experience and setting them apart from competitors. Healthcare providers can utilize the system to promote physical activity as a means of disease prevention and management, while corporate wellness programs can leverage it to support employee well-being and productivity. By incorporating an exercise intensity recommender system, businesses can optimize workout effectiveness, increase customer satisfaction, and differentiate their offerings in a competitive market.
 
 #### Objectives
@@ -68,7 +111,17 @@ Based on the performance results, it was decided to further tune and optimize th
 1. Clone the repository: https://github.com/Lawez/capstone-project.git 
 2. Install the required dependencies
 3. Start the web app
-4. Access the web app in your browser: https://exercise-recommender1-c2c35a5bcd9e.herokuapp.com/
+4. Access the web app in your browser 
+
+### Website
+![image.jpg](https://github.com/Lawez/capstone-project/blob/main/webcover.png)
+
+<p align="center">
+  <a href="https://exercise-recommender1-c2c35a5bcd9e.herokuapp.com/">
+    <img src="https://img.shields.io/badge/Click%20to%20Website-brightgreen" alt="Click to Website">
+  </a>
+</p>
+
 
 # Acknowledgement and Contributors
 We extend our heartfelt appreciation to the Moringa School community, particularly the technical mentors, for their exceptional guidance and unwavering support during the project. Their expertise and constant assistance have been pivotal in the development of the exercise intensity recommendation system. We are profoundly grateful for their commitment to fostering a collaborative learning environment, which has played a crucial role in our accomplishments.
@@ -95,6 +148,6 @@ Special thanks to the team that made this project possible.
 └── student.ipynb              <- Jupyter Notebook documenting the analysis and findings
 
 ```
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
