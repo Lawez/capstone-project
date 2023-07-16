@@ -29,7 +29,6 @@
         <li><a href="#cleaning-data">Cleaning Data</a></li>
       </ul>
     </li>
-    <li><a href="#visualizations">Visualizations</a></li>
     <li><a href="#model-selection-and-performance">Model Selection and Performance</a></li>
     <li><a href="#conclusion">Conclusion</a></li>
     <li>
@@ -69,25 +68,19 @@ Overall Objective: Develop a Recommender System for Personalized Exercise Intens
 7. **Documentation and Write-up**: Documented the project details, including the project steps, descriptions of the models used, evaluation results, and many interesting findings as well as insights obtained throughout the project.
 
 ## Required Dependencies
-* pandas
-* numpy
-* matplotlib
-* Scikit-learn
-* seaborn
+
+The following dependencies are required to run this project:
+
+* ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+* ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+* ![Matplotlib](https://img.shields.io/badge/Matplotlib-3776AB?style=for-the-badge&logo=matplotlib&logoColor=white)
+* ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+* ![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&logo=seaborn&logoColor=white)
+
 ### Loading Data
 * df1 = pd.read_csv('exercise_datasett.csv')
 ### cleaning data
 * cleaned(df1)
-
-## Visualizations
-![image](https://github.com/Lawez/capstone-project/assets/124572155/23bee446-71e2-4481-b597-77b14789e3c2)
-
-![image](https://github.com/Lawez/capstone-project/assets/124572155/8a292d51-a303-496a-ae03-d67f8cd0cbab)
-
-![image](https://github.com/Lawez/capstone-project/assets/124572155/c421d9aa-1ba8-467a-944e-61d33d4763c3)
-
-![image](https://github.com/Lawez/capstone-project/assets/124572155/7743a1b5-101d-4548-ba11-deef8b4aba3d)
-
 
 ## Model Selection and Performance
 The project involved evaluating multiple machine learning models for predicting exercise intensity based on individual characteristics. The following models were tested, and their RMSE values were calculated:
@@ -100,7 +93,6 @@ The project involved evaluating multiple machine learning models for predicting 
 | Tuned Random Forest       | 2.88  |
  
 Based on the performance results, it was decided to further tune and optimize the Random Forest Regressor model, as it had the lowest RMSE among the tested models. After the tuning process, the Random Forest Regressor achieved an improved RMSE of 2.88.
-![image](https://github.com/Lawez/capstone-project/assets/124572155/b8d8ab51-61fd-4085-833c-aebc7556faf7)
 
 ## Conclusion
 * The model can be utilized to provide personalized exercise intensity recommendations to individuals based on their characteristics, including age, gender, BMI, exercise duration, heart rate, calories burned, weather conditions, and desired weight goals. Users can input their information into the system, and the model will generate tailored recommendations to optimize their workout effectiveness.
