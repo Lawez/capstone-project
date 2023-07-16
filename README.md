@@ -100,6 +100,7 @@ The project involved evaluating multiple machine learning models for predicting 
 | Tuned Random Forest       | 2.88  |
  
 Based on the performance results, it was decided to further tune and optimize the Random Forest Regressor model, as it had the lowest RMSE among the tested models. After the tuning process, the Random Forest Regressor achieved an improved RMSE of 2.88.
+![image](https://github.com/Lawez/capstone-project/assets/124572155/b8d8ab51-61fd-4085-833c-aebc7556faf7)
 
 ## Conclusion
 * The model can be utilized to provide personalized exercise intensity recommendations to individuals based on their characteristics, including age, gender, BMI, exercise duration, heart rate, calories burned, weather conditions, and desired weight goals. Users can input their information into the system, and the model will generate tailored recommendations to optimize their workout effectiveness.
