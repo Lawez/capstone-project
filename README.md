@@ -141,7 +141,7 @@ Special thanks to the team that made this project possible.
 - [Amos Kipkirui](https://github.com/Amoskipkirui)
 - [Ian Tulienge](https://github.com/Lawez)
 - [Lavender Echessa](https://github.com/lavEche)
-- [Kelvin Muriuki]()
+- [Kelvin Muriuki](https://github.com/kelvinmuriukih)
 - [Susan Warigia](https://github.com/warigiasue89)
 - [Eston Kamau](https://github.com/EstonKamau)
 
