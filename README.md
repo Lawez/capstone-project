@@ -24,7 +24,7 @@
 - [Conclusion](#conclusion)
 - [Installation and Usage](#install-and-usage)
   - [Website(flask)](#website-flask)
-  - [Website(streamlit)](#website-streamlit)
+  - [Android App (Kotlin))](#android-app-(Kotlin)
 - [Acknowledgment](#acknowledgment)
 - [Contributors](#contributors)
 - [Repository Structure](#repository-structure)
@@ -118,14 +118,6 @@ Based on the performance results, it was decided to further tune and optimize th
   </a>
 </p>
 
-### Website(streamlit)
-![image.jpg](https://github.com/Lawez/capstone-project/blob/main/webcover2.png)
-
-<p align="center">
-  <a href="https://exercise-recommender-streamlit-8b1283329582.herokuapp.com/">
-    <img src="https://img.shields.io/badge/Click%20to%20Website-brightgreen" alt="Click to Website">
-  </a>
-</p>
 
 ### Android App (Kotlin)
 ![image.jpg](https://github.com/Lawez/capstone-project/blob/main/appimage.jpg)
