@@ -22,9 +22,9 @@
   - [Cleaning Data](#cleaning-data)
 - [Model Selection and Performance](#model-selection-and-performance)
 - [Conclusion](#conclusion)
-- [Installation and Usage](#install-and-usage)
+- [Installation and Usage](#installation-and-usage)
   - [Website(flask)](#website-flask)
-  - [Android App (Kotlin))](#android-app-(Kotlin)
+  - [Android App (Kotlin)](#android-app-kotlin)
 - [Acknowledgment](#acknowledgment)
 - [Contributors](#contributors)
 - [Repository Structure](#repository-structure)
@@ -110,7 +110,7 @@ Based on the performance results, it was decided to further tune and optimize th
 4. Access the web app in your browser 
 
 ### Website(flask)
-![image.jpg](https://github.com/Lawez/capstone-project/blob/main/webcover.png)
+![image.jpg](https://github.com/Lawez/capstone-project/blob/main/webcover.jpg)
 
 <p align="center">
   <a href="https://exercise-recommender1-c2c35a5bcd9e.herokuapp.com/">
