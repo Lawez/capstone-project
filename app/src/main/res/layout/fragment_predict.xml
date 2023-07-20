@@ -1,0 +1,231 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/less_dra"
+    tools:context=".PredictFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/background_grey"
+            android:orientation="vertical"
+            android:padding="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select your Gender:"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/genderSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/edittext_background"
+                android:textColor="#8e8e8e"
+                android:textColorHint="#8e8e8e"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter your Age:"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editAge"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/edittext_background"
+                android:hint="Ex:35"
+                android:inputType="number"
+                android:padding="8dp"
+                android:textColor="#8e8e8e"
+                android:textColorHint="#8e8e8e"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/weathercondition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select your suitable training weather condition:"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/weatherSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/edittext_background"
+                android:textColor="#8e8e8e"
+                android:textColorHint="#8e8e8e"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/dreamweight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter your Dream weight:"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editDweight"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/edittext_background"
+                android:hint="Ex:65"
+                android:inputType="numberDecimal"
+                android:padding="8dp"
+                android:textColor="#8e8e8e"
+                android:textColorHint="#8e8e8e"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/actualweight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter your Actual weight:"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editAweight"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/edittext_background"
+                android:hint="Ex:70"
+                android:inputType="numberDecimal"
+                android:padding="8dp"
+                android:textColor="#8e8e8e"
+                android:textColorHint="#8e8e8e"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/height"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter your Height in meters:"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editheight"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/edittext_background"
+                android:hint="Ex:1.6"
+                android:inputType="numberDecimal"
+                android:padding="8dp"
+                android:textColor="#8e8e8e"
+                android:textColorHint="#8e8e8e"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/calories"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select the calories you would like to burn:"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/caloriesSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/edittext_background"
+                android:textColor="#8e8e8e"
+                android:textColorHint="#8e8e8e"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/duration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter your training session duration (minutes):"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editduration"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/edittext_background"
+                android:hint="Ex:15"
+                android:inputType="numberDecimal"
+                android:padding="8dp"
+                android:textColor="#8e8e8e"
+                android:textColorHint="#8e8e8e"
+                android:textSize="18sp" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/predict"
+                style="@android:style/Widget.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/background_button"
+                android:text="Recommend"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/result"
+                android:layout_width="362dp"
+                android:layout_height="347dp"
+                android:fontFamily="sans-serif-thin"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="23dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="42dp"
+                tools:layout_editor_absoluteY="1010dp" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
