@@ -75,4 +75,4 @@ def recommend():
     return render_template('recommendation.html', intensity=predicted_intensity_selected, description=description, max_heart_rate=max_heart_rate, calories_to_burned=calories_to_burned)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
