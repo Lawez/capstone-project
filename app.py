@@ -5,12 +5,13 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error
 import pickle
+rf_model = pickle.load(open('rf3_model.pkl','rb'))
 
 app = Flask(__name__)
 
 # Load the trained Random Forest model
-with open('rf3_model.pkl', 'rb') as file:
-    rf_model = pickle.load(file)
+# with open('rf3_model.pkl', 'rb') as file:
+    
 
 # Define a dictionary of intensity levels and descriptions
 intensity_descriptions = {
@@ -74,4 +75,4 @@ def recommend():
     return render_template('recommendation.html', intensity=predicted_intensity_selected, description=description, max_heart_rate=max_heart_rate, calories_to_burned=calories_to_burned)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
